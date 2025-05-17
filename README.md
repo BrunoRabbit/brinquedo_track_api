@@ -10,6 +10,16 @@ Este projeto utiliza Docker + Prisma para testes e desenvolvimento local. Abaixo
 - Versao do node usada: 18
 
 
+## 📦 Execução
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-projeto.git
+cd brinquedo_track_api
+npm install
+```
+
 ## ▶️ Subindo o Banco com Docker
 
 Execute o comando abaixo no terminal para iniciar o PostgreSQL:
@@ -42,6 +52,10 @@ depois execute no terminal:
 ```
 npx prisma migrate dev --name init
 npx prisma generate
+```
+por fim execute o projeto com
+```
+npm run dev
 ```
 
 *se houver algum problema de inicialização, desabilite o firewall temporariamente apenas para executar as requests*
