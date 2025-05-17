@@ -105,3 +105,12 @@ O endpoint `/stats/daily-sales` agrupa e retorna as vendas realizadas por dia. E
   {
     "error": "Sem clientes para associar às vendas."
   }
+
+## Testes
+
+execute os testes com 
+```
+npm test
+```
+
+esteja com o Docker aberto para poder executar os testes
